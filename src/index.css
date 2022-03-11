@@ -1,13 +1,72 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600&display=swap");
+
+:root {
+  --color-text-dark: 000;
+  --color-bg-dark: "#222629";
+  --color-primary-dark: "#86c232";
+  --color-primary-variant-dark: "#61892f";
+  --color-secondary-dark: "#474b4f";
+  --color-secondary-variant-dark: "#6b6e70";
+
+  --container-width-lg: 75%;
+  --container-width-md: 86%;
+  --container-width-sm: 90%;
+
+  --transition: all 400ms ease;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+// smooth transition for nav bar
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Fredoka", sans-serif !important;
+  background: var(--color-bg-dark) !important;
+  /* IF bg texture image is found, insert here */
+}
+
+/* .skills {
+  background: lightgray;
+} */
+
+section {
+  margin-top: 8rem;
+}
+
+section > h2 {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+section > h2 {
+  text-align: center;
+}
+
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Media Queries (Medium Devices -> Tablet) */
+@media screen and (max-width: 1024px) {
+  .container {
+    width: var(--container-width-md);
+  }
+
+  section {
+    margin-top: 6rem;
+  }
+}
+
+/* (Small Devices -> Mobile) */
+@media screen and (max-width: 600px) {
+  .container {
+    width: var(--container-width-sm);
+  }
+
+  section > h2 {
+    margin-bottom: 2rem;
+  }
 }

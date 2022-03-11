@@ -1,0 +1,1 @@
+images should be in this "assets" folder! just letting you know. 
