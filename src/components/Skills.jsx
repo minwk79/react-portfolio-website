@@ -13,7 +13,8 @@ const feSkills= [
 
 const beSkills = [
   "Python",
-  "C/C++"
+  "C/C++",
+  "Java"
 ];
 
 const sqlSkills = [
