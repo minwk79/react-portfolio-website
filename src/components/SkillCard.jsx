@@ -2,7 +2,10 @@ import React from 'react'
 
 function SkillCard({area, skills}) {
     const renderedSkills = skills.map((skill) => {
-        return <div key={skill}>- {skill}</div>
+        return (
+          <div className="eight wide column" key={skill}>
+            <i className="check circle icon" /> {skill}
+          </div>)
     });
 
 
@@ -12,7 +15,9 @@ function SkillCard({area, skills}) {
           <h2>{area}</h2>
         </div>
         <div className='content'>
-          <h5>{skills}</h5>
+          <div className="ui grid">
+            {renderedSkills}
+          </div>
         </div>
     </div>
   )
