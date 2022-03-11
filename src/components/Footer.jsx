@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import RatingScale from './RatingScale'
-
+import SocialMedia from './SocialMedia';
 
 export default function Footer() {
 
@@ -37,7 +37,9 @@ export default function Footer() {
           </div>
         </div>
       </div>
-
+      <div className=''>
+        <SocialMedia />
+      </div>
     </div>
   )
 }
