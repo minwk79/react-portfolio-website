@@ -35,14 +35,12 @@ export default function Skills() {
     <div className='skills ui container '>
       <h5>What Can I Do?</h5>
       <h2>Skills</h2>
-      <div className='ui cards'>
+      <div className='ui two cards'>
         <SkillCard area="Front End" skills={feSkills} />
         <SkillCard area="Back End" skills={beSkills} />
         <SkillCard area="SQL" skills={sqlSkills} />
         <SkillCard area="Tools" skills={tools} />
       </div>
-
-
     </div>
   )
 }
