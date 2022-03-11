@@ -15,7 +15,7 @@ function SkillCard({area, skills}) {
           <h2>{area}</h2>
         </div>
         <div className='content'>
-          <div className="ui grid">
+          <div className="ui stackable grid">
             {renderedSkills}
           </div>
         </div>
