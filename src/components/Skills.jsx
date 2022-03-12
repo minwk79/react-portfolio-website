@@ -32,7 +32,7 @@ const tools = [
 
 export default function Skills() {
   return (
-    <div className='skills ui container '>
+    <div className='skills ui container' id='skills'>
       <h5>What Can I Do?</h5>
       <h2>Skills</h2>
       <div className='ui two cards'>

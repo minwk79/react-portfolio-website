@@ -16,7 +16,7 @@ function About() {
 
   
   return (
-    <div className='about ui container'>
+    <div id="#about" className='about ui container'>
       <h5>Get to know</h5>
       <h2>About Me!</h2>
       <div className='ui cards'>

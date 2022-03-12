@@ -16,9 +16,23 @@
 }
 
 // smooth transition for nav bar
-html {
+.navbar {
   scroll-behavior: smooth;
 }
+
+.ui.fixed.top.sticky {
+  width: 100px !important;
+  height: 200px !important;
+  left: 20px;
+}
+
+.ui.fixed.top.sticky li {
+  margin: 10px 0;
+}
+
+/* $('.ui.sticky').sticky({
+    context: '#example1'
+}); */
 
 body {
   font-family: "Fredoka", sans-serif !important;
@@ -37,7 +51,8 @@ img {
 }
 
 ul {
-  list-style: none;
+  list-style-type: none;
+  padding: 0;
 }
 
 .ui.card.rating {
@@ -95,6 +110,14 @@ ul {
   section {
     margin-top: 6rem;
   }
+  .ui.fixed.top.sticky {
+    width: 60px !important;
+    left: 10px;
+  }
+
+  .ui.fixed.top.sticky li {
+    margin: 5px 0;
+  }
 }
 
 /* (Small Devices -> Mobile) */
@@ -105,5 +128,10 @@ ul {
 
   section > h2 {
     margin-bottom: 2rem;
+  }
+
+  .ui.fixed.top.sticky {
+    width: 30px !important;
+    left: 5px;
   }
 }

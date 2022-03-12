@@ -5,7 +5,7 @@ import CTA from './CTA';
 
 export default function Header() {
   return (
-    <div className="header ui container">
+    <div className="header ui container" id="#header">
       <h5>Hello I'm</h5>
       <h2>Minwoo Kwak</h2>
       <div className='me'>

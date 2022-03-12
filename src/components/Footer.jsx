@@ -25,7 +25,7 @@ export default function Footer() {
 
 
   return (
-    <div className='footer ui container'>
+    <div className='footer ui container' id='footer'>
       <div className='ui fluid card'>
         <RatingScale onSelect={handleSelect}/>
         <div className='ui form'>

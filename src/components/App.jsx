@@ -5,10 +5,14 @@ import Skills from './Skills';
 import Project from './Project';
 import Contact from './Contact';
 import Footer from './Footer';
+import NavBar from './NavBar';
 
 function App() {
   return (
-    <div>
+    <div className='ui segment'>
+      <div className='ui left rail'>
+          <NavBar />
+      </div>
       <Header />
       <About />
       <Skills />

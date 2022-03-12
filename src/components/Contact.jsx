@@ -6,7 +6,7 @@ function Contact() {
 
 
   return (
-    <div className='contact ui container'>
+    <div className='contact ui container' id='contact'>
       <h5>you can</h5>
       <h2>Contact Me!</h2>
       <div className='ui stackable grid'>
