@@ -9,17 +9,10 @@ import NavBar from './NavBar';
 
 function App() {
   return (
-    <div className='ui segment'>
-      <div className='ui left rail'>
-          <NavBar />
-      </div>
+    <div className='bg-background'>
+
       <Header />
-      <About />
-      <Skills />
-      <Project />
-      <Contact />
-      <br />
-      <Footer />
+      
     </div>
   )
 }
