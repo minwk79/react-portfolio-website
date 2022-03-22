@@ -16,10 +16,13 @@ function About() {
 
   
   return (
-    <div id="#about" className='about ui container'>
-      <h5>Get to know</h5>
-      <h2>About Me!</h2>
-      <div className='ui cards'>
+    <div id="about" className='container py-20 items-center justify-center flex flex-col'>
+      <div className='flex-col'>
+        <p className='secondaryText my-4'>Get to know</p>
+        <p className='primaryText my-4'>About Me!</p>
+      </div>
+
+      <div className='flex flex-wrap my-8'>
         <AboutCard label="Education" bullets={eduBullets}/>
         <AboutCard label="Background" bullets={bgBullets}/>
       </div>

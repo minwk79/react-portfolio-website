@@ -12,6 +12,13 @@ function App() {
     <div className='bg-background'>
 
       <Header />
+      <About />
+      <Skills />
+      <Project />
+      <Contact />
+      <Footer />
+      
+
       
     </div>
   )

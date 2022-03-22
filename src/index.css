@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.primaryBtn {
+  @apply text-sm py-2 px-4 rounded inline-flex items-center text-silver bg-tahiti-600 focus:outline-none hover:bg-tahiti-300;
+}
+
+.secondaryBtn {
+  @apply text-sm py-2 px-4 rounded inline-flex items-center text-silver bg-tahiti-600 focus:outline-none hover:bg-tahiti-300;
+}
+
+.primaryText {
+  @apply sm:text-4xl text-3xl mb-4 font-medium text-primary;
+}
+
+.secondaryText {
+  @apply text-lg text-secondary;
+}
+
+.description {
+  @apply mb-8 leading-relaxed text-tahiti-900;
+}

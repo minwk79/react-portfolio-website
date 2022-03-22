@@ -8,7 +8,7 @@ export default function Project() {
   const des2 = "Lorem Imsum Dolores Dominguez I'm coming home again."
 
   return (
-    <div className='project ui container' id='project'>
+    <div className='container flex py-20 items-center justify-center flex-col' id='project'>
       <h5>Here are some</h5>
       <h2>Projects</h2>
       <div className='ui container cards'>

@@ -32,10 +32,10 @@ const tools = [
 
 export default function Skills() {
   return (
-    <div className='skills ui container' id='skills'>
+    <div className='container flex py-20 items-center justify-center flex-col' id='skills'>
       <h5>What Can I Do?</h5>
       <h2>Skills</h2>
-      <div className='ui two cards'>
+      <div className=''>
         <SkillCard area="Front End" skills={feSkills} />
         <SkillCard area="Back End" skills={beSkills} />
         <SkillCard area="SQL" skills={sqlSkills} />

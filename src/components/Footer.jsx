@@ -25,7 +25,7 @@ export default function Footer() {
 
 
   return (
-    <div className='footer ui container' id='footer'>
+    <div className='container flex py-20 items-center justify-center flex-col' id='footer'>
       <div className='ui fluid card'>
         <RatingScale onSelect={handleSelect}/>
         <div className='ui form'>
