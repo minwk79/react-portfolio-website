@@ -10,6 +10,10 @@
   @apply text-sm py-2 px-4 rounded inline-flex items-center text-silver bg-tahiti-600 focus:outline-none hover:bg-tahiti-300;
 }
 
+.border {
+  @apply border-2 border-tahiti-400 shadow-md rounded-lg border-opacity-50;
+}
+
 .primaryText {
   @apply sm:text-4xl text-3xl mb-4 font-medium text-primary;
 }
@@ -20,4 +24,18 @@
 
 .description {
   @apply mb-8 leading-relaxed text-tahiti-900;
+}
+
+.content-div {
+  @apply bg-no-repeat bg-cover bg-center h-[250px];
+}
+
+@layer base {
+  body {
+  }
+
+  li {
+    @apply px-4;
+    @apply cursor-pointer;
+  }
 }

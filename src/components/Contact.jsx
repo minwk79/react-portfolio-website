@@ -2,25 +2,29 @@ import React from 'react'
 import EmailForm from './EmailForm'
 import ContactCard from './ContactCard'
 
+
+
 function Contact() {
 
 
   return (
     <div className='container flex py-20 items-center justify-center flex-col' id='contact'>
-      <h5>you can</h5>
-      <h2>Contact Me!</h2>
-      <div className='ui stackable grid'>
-        <div className='four wide column'>
-          {/* Make the contact card links clickable, with copy functionality. */}
-          <div className='ui cards'>
+      <div className='flex-col'>
+          <p className='secondaryText my-4'>You can always</p>
+          <p className='primaryText my-4'>Contact Me</p>
+      </div>
+      
+    <div className='flex flex-row gap-3'>
+      <div className='basis-1/4'>
+          <div className='border'>
             <ContactCard icon="phone square icon" label="Phone:" contact="213-397-6528"/>
-            <ContactCard icon="envelope icon" label="Email:" contact="myemail@gmail.com"/>
+          </div>
+          <div className='border'>
+            <ContactCard icon="envelope icon" label="Email:" contact="minwk79@gmail.com"/>
           </div>
         </div>
-        <div className='eight wide column'>
-          <div className='ui form success'>
-            <EmailForm />
-          </div>
+        <div className='basis-3/4 border'>
+          <EmailForm />
         </div>
       </div>
     </div>
@@ -28,3 +32,4 @@ function Contact() {
 }
 
 export default Contact
+

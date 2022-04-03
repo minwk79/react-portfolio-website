@@ -10,13 +10,13 @@ import NavBar from './NavBar';
 function App() {
   return (
     <div className='bg-background'>
-
+      <NavBar />
       <Header />
       <About />
       <Skills />
       <Project />
       <Contact />
-      <Footer />
+      {/* <Footer /> */}
       
 
       

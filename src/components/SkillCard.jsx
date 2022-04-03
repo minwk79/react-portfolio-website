@@ -3,22 +3,18 @@ import React from 'react'
 function SkillCard({area, skills}) {
     const renderedSkills = skills.map((skill) => {
         return (
-          <div className="eight wide column" key={skill}>
-            <i className="check circle icon" /> {skill}
+          <div key={skill}>
+            <i className="" /> {skill}
           </div>)
     });
 
 
   return (
-    <div className='card'>
-        <div className='header'>
-          <h2>{area}</h2>
-        </div>
-        <div className='content'>
-          <div className="ui stackable grid">
-            {renderedSkills}
-          </div>
-        </div>
+    <div className='shadow-md shadow-secondary hover:scale-110 duration-300'>
+      <h2 className='secondaryText'>{area}</h2>
+      <div className='description'>
+        {renderedSkills}
+      </div>
     </div>
   )
 }

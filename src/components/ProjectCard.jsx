@@ -1,34 +1,33 @@
-import React from 'react'
-
-function ProjectCard({name, tools, description}) {  // we further need the image src, github link, website link. 
+import React from 'react';
 
 
-  return (
-    <div className='ui card'>
-        <div className='image'>
-            <img src="" alt="some project" />
-        </div>
-        <div className='content'>
-            <div className='header'>{name}</div>
-            <div className='meta'>
-                <span className='date'>{tools}</span>
-            </div>
-            <div className='description'>
-                {description}
-            </div>
-        </div>
-        <div className='extra content'>
-            <div className='ui two buttons'>
-                <div className='ui basic green button'>
-                    Github
+function ProjectCard({name, tools, description, src}) {  // we further need the image src, github link, website link. 
+
+
+
+    return (
+        <div style={{backgroundImage: `url(${src})`}} className='shadow-lg shadow-secondary group container rounded-md flex justify-center 
+            items-center mx-auto content-div'>
+            <div className='opacity-0 group-hover:opacity-100'>
+                <h2 className='text-2xl font-bold text-secondary tracking-wider'>{name}</h2>
+                <h2 className='mb-4 text-primary text-xs'>{tools}</h2>
+                <p className='description leading-relaxed'>{description}</p>
+                <div className='pt-8 text-center'>
+                    <button className='primaryBtn'>website</button>
+                    <button className='secondaryBtn'>code</button>
                 </div>
-                <div className='ui basic red button'>
-                    Website
-                </div>
+                {/* <div className='w-1/2'>
+                    <img className='object-cover object-center rounded' alt='/' src={src} />
+                </div> */}
             </div>
         </div>
-    </div>
-  )
+
+
+
+
+    )
+
+
 }
 
-export default ProjectCard
+export default ProjectCard;

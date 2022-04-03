@@ -8,7 +8,7 @@ function AboutCard({label, bullets}) {
 
   return (
       <div className='p-4 lg:w-1/2 md:2-full'>
-            <div className='flex border-2 rounded-lg border-tahiti-400 border-opacity-50 p-8 sm:flex-row flex-col'>
+            <div className='flex p-8 sm:flex-row flex-col border'>
                 <div className='w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-tahiti-600 text-silver flex-shrink-0'>
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                         <path d="M12 14l9-5-9-5-9 5 9 5z" />
