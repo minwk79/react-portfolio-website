@@ -6,19 +6,20 @@ import Project from './Project';
 import Contact from './Contact';
 import Footer from './Footer';
 import NavBar from './NavBar';
+import Social from './Social';
 
 function App() {
   return (
     <div className='bg-background'>
       <NavBar />
+      <Social />
       <Header />
       <About />
       <Skills />
       <Project />
       <Contact />
       {/* <Footer /> */}
-      
-
+    
       
     </div>
   )

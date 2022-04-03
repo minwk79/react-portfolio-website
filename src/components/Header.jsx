@@ -3,7 +3,6 @@ import React from 'react'
 import myImg from '../assets/temp.png';
 import resume from '../assets/resume.pdf'
 
-
 export default function Header() {
   return (
 

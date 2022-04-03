@@ -8,25 +8,19 @@ function Contact() {
 
 
   return (
-    <div className='container flex py-20 items-center justify-center flex-col' id='contact'>
-      <div className='flex-col'>
-          <p className='secondaryText my-4'>You can always</p>
+    <div name='contact' className='w-full h-screen flex justify-center items-center p-4' id='contact'>
+      <form method='POST' action='https://getform.io/f/23fde768-537b-4cae-9d35-3e996ac4f6dd' className='flex flex-col max-w-[600px] w-full'>
+        <div className='pb-8'>
           <p className='primaryText my-4'>Contact Me</p>
-      </div>
+          <p className='secondaryText my-4'>Some Additional Text here</p>
+        </div>
+        <input className='my-4 p-2' type='text' placeholder='Your Name' name='name' /> 
+        <input className='my-4 p-2' type='email' placeholder='Your Email' name='email' /> 
+        <textarea className='my-4 p-2' name='message' rows='10' placeholder='Message'></textarea>
+        <button className='primaryBtn mx-auto '>send message</button>
+      </form>
       
-    <div className='flex flex-row gap-3'>
-      <div className='basis-1/4'>
-          <div className='border'>
-            <ContactCard icon="phone square icon" label="Phone:" contact="213-397-6528"/>
-          </div>
-          <div className='border'>
-            <ContactCard icon="envelope icon" label="Email:" contact="minwk79@gmail.com"/>
-          </div>
-        </div>
-        <div className='basis-3/4 border'>
-          <EmailForm />
-        </div>
-      </div>
+
     </div>
   )
 }

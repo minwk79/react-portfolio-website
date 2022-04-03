@@ -8,7 +8,7 @@ export default function Project() {
   const des2 = "Lorem Imsum Dolores Dominguez I'm coming home again. Cheerssssesese"
 
   return (   
-    <div name='project' id='project'>
+    <div name='projects' id='projects'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div className='pb-8'>
             <p className='secondaryText my-4'>Here are my</p>
