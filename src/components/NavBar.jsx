@@ -12,39 +12,40 @@ const NavBar = () => {
   }
 
   return (
-    <div className='navbar fixed w-full h-[80px] flex justify-between items-center px-4 text-primary bg-silver' >
+    <div className='fixed mx-auto w-full h-[70px] flex flex-row-reverse justify-between px-4 items-center text-primary bg-background md:bg-silver' >
 
       {/* menu */}
-      <div>
-        <ul className='hidden md:flex'>
-            <li>
-              <Link to="home" smooth={true} duration={500}>
-                Home
-              </Link>
-            </li>
-            <li>
-              <Link to="about" smooth={true} duration={500}>
-                About
-              </Link>
-            </li>
-            <li>
-              <Link to="skills" smooth={true} duration={500}>
-                Skills
-              </Link>
-            </li>
-            <li>
-              <Link to="projects" smooth={true} duration={500}>
-                Projects
-              </Link>
-            </li>
-            <li>
-              <Link to="contact" smooth={true} duration={500}>
-                Contact
-              </Link>
-            </li>
+      <ul className='hidden md:flex'>
+          <li>
+            <Link to="home" smooth={true} duration={500}>
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link to="about" smooth={true} duration={500}>
+              About
+            </Link>
+          </li>
+          <li>
+            <Link to="skills" smooth={true} duration={500}>
+              Skills
+            </Link>
+          </li>
+          <li>
+            <Link to="projects" smooth={true} duration={500}>
+              Projects
+            </Link>
+          </li>
+          <li>
+            <Link to="contact" smooth={true} duration={500}>
+              Contact
+            </Link>
+          </li>
 
-        </ul>
-      </div>
+
+
+      </ul>
+
       {/* Hamburger */}
       <div className='md:hidden z-10' onClick={handleClick}>
         {!nav ? <FaBars /> : <FaTimes />}

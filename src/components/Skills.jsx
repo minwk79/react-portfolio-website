@@ -32,10 +32,9 @@ const tools = [
 
 export default function Skills() {
   return (
-    <div name='skills' className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full' id='skills'>
+    <div name='skills' className='container myContainer max-w-[1000px] flex flex-col justify-center w-full h-full' id='skills'>
       <div className='flex-col'>
-        <p className='secondaryText my-4'>What can I do?</p>
-        <p className='primaryText my-4'>Skills</p>
+        <p className='headerText'>Skills</p>
       </div>
       <div className='w-full grid grid-cols-1 sm:grid-cols-2 gap-4 text-center py-8'>
         <SkillCard area="Front End" skills={feSkills} />

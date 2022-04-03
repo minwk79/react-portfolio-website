@@ -5,7 +5,7 @@ import {FaGithub, FaLinkedin} from 'react-icons/fa';
 
 function Social() {
   return (
-    <div className='container'>
+    <div className=''>
         {/*Desktop Left Sidebar Social Icons*/}
         <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
             <ul>

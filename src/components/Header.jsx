@@ -6,14 +6,14 @@ import resume from '../assets/resume.pdf'
 export default function Header() {
   return (
 
-    <div name='home' className='container flex py-20 items-center justify-center flex-col md:w-full h-screen'>
+    <div name='home' className='container myHeader flex flex-col justify-center'>
       {/*Container*/}
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
-        <p className='secondaryText'>Hi, My Name Is </p>
-        <img className='w-1/3 md:w-1/6 mb-10 object-cover object-center rounded-full' alt='me' src={myImg}></img>
-        <h1 className='primaryText sm:text-6xl font-bold'>Min Woo Kwak</h1>
-        <h2 className='secondaryText sm:text-6xl font-bold'>I'm a Software Developer</h2>
-        <p className='text-tahiti-900 py-4 max-w-[700px]'>Welcome to my Web Portfolio! <br />You can call me Min.</p>
+        <p className='text-secondary text-2xl md:text-4xl '>Hi, My Name Is </p>
+        <img className='py-6 w-1/3 md:w-1/6 mb-10 object-cover object-center rounded-full' alt='me' src={myImg}></img>
+        <h1 className='text-primary text-4xl md:text-6xl font-bold'>Min Woo Kwak</h1>
+        <h2 className='text-secondary text-2xl md:text-4xl font-bold'>I'm a Software Developer</h2>
+        <p className='text-tahiti-900 py-4 max-w-[700px]'>Welcome to my Web Portfolio! <br />You can call me Min. <br/> Feel free to look around my projects, and reach me. </p>
         <div className='flex justify-center'>
           <a className="primaryBtn"
             href={resume} download>
