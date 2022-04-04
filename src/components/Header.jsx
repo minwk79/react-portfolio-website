@@ -6,14 +6,19 @@ import resume from '../assets/resume.pdf'
 export default function Header() {
   return (
 
-    <div name='home' className='container myHeader flex flex-col justify-center'>
+    <div name='home' className='container pt-32 flex flex-col justify-center'>
       {/*Container*/}
-      <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
-        <p className='text-secondary text-2xl md:text-4xl '>Hi, My Name Is </p>
-        <img className='py-6 w-1/3 md:w-1/6 mb-10 object-cover object-center rounded-full' alt='me' src={myImg}></img>
+      <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full gap-4'>
+        <p className='text-secondary text-2xl md:text-4xl '>Hello! <br /> My Name Is </p>
+        {/* <img className='py-6 w-1/3 md:w-1/6 mb-10 object-cover object-center rounded-full' alt='me' src={myImg}></img> */}
         <h1 className='text-primary text-4xl md:text-6xl font-bold'>Min Woo Kwak</h1>
         <h2 className='text-secondary text-2xl md:text-4xl font-bold'>I'm a Software Developer</h2>
-        <p className='text-tahiti-900 py-4 max-w-[700px]'>Welcome to my Web Portfolio! <br />You can call me Min. <br/> Feel free to look around my projects, and reach me. </p>
+        <p className='text-tahiti-900 py-4 max-w-[700px]'>
+          &lt;myself&gt; <br />
+          &ensp;Welcome to my personal web portfolio! <br />
+          &ensp;I'm interested in building Software / Applications<br />
+          &lt;/myself&gt; <br />
+        </p>
         <div className='flex justify-center'>
           <a className="primaryBtn"
             href={resume} download>

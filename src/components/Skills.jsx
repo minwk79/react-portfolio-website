@@ -3,28 +3,27 @@ import SkillCard from './SkillCard'
 
 // TODO: Declare variables for skillcards.
 const feSkills= [
-  "HTML/CSS",
-  "Javascript",
+  "HTML",
+  "CSS",
   "React",
   "Tailwind",
-  "Redux",
   "Angular"
 ];
 
 const beSkills = [
   "Python",
   "C/C++",
-  "Java"
+  "Javascript"
 ];
 
-const sqlSkills = [
+const dbSkills = [
   "MySQL",
   "PostgreSQL",
-  "MongoDB"
+  "Firebase"
 ];
 
 const tools = [
-  "Microsoft Excel",
+  "Excel",
   "Git"
 ];
 
@@ -32,14 +31,14 @@ const tools = [
 
 export default function Skills() {
   return (
-    <div name='skills' className='container myContainer max-w-[1000px] flex flex-col justify-center w-full h-full' id='skills'>
+    <div name='skills' className='container max-w-[1000px] flex flex-col justify-center w-full h-full mb-40 md:mb-64 lg:mb-80'>
       <div className='flex-col'>
         <p className='headerText'>Skills</p>
       </div>
-      <div className='w-full grid grid-cols-1 sm:grid-cols-2 gap-4 text-center py-8'>
+      <div className='w-full grid grid-cols-1 sm:grid-cols-2 gap-4 text-center mb-40 md:mb-64 lg:mb-80'>
         <SkillCard area="Front End" skills={feSkills} />
         <SkillCard area="Back End" skills={beSkills} />
-        <SkillCard area="SQL" skills={sqlSkills} />
+        <SkillCard area="Database" skills={dbSkills} />
         <SkillCard area="Tools" skills={tools} />
 
       </div>

@@ -39,7 +39,11 @@
 }
 
 .content-div {
-  @apply bg-no-repeat bg-cover bg-center h-[200px];
+  @apply bg-no-repeat bg-cover bg-center;
+}
+
+.project {
+  @apply shadow-lg shadow-secondary container rounded-md flex justify-center items-center mx-auto content-div;
 }
 
 @layer base {

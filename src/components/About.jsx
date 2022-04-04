@@ -28,15 +28,14 @@ function About() {
         </div>
           <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
             <div className='sm:text-right text-4xl font-bold'>
-              <p>BackGround</p>
+              <p>Background</p>
             </div>
             <div>
                <p>
-                 Some Long Text About my Background ....
-                 Lorem IpsuM Dolor Long Ass Verse Goes Here.
-                 Lorem IpsuM Dolor Long Ass Verse Goes Here.
-                 Lorem IpsuM Dolor Long Ass Verse Goes Here.
-                 Lorem IpsuM Dolor Long Ass Verse Goes Here.
+                 4+ years of programming/software development<br />
+                 Full-stack development from scratch<br />
+                 Strong foundation on Algorithms and Data Structures<br />
+                 Knowledge in Operating Systems, Compilers, and Computer Networks<br />
                </p>
             </div>
             <div className='sm:text-right text-4xl font-bold'>
@@ -44,11 +43,9 @@ function About() {
             </div>
             <div>
                <p>
-                 Some Long Text About my Background ....
-                 Lorem IpsuM Dolor Long Ass Verse Goes Here.
-                 Lorem IpsuM Dolor Long Ass Verse Goes Here.
-                 Lorem IpsuM Dolor Long Ass Verse Goes Here.
-                 Lorem IpsuM Dolor Long Ass Verse Goes Here.
+                4th year Undergraduate in UCI. Major in Computer Science, Information.<br />
+                &ensp;//graduation expected June 2022<br />
+                2019-2022 Dean's Honors List, GPA 3.80<br/>
                </p>
             </div>
           </div>
