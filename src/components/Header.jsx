@@ -13,7 +13,7 @@ export default function Header() {
         {/* <img className='py-6 w-1/3 md:w-1/6 mb-10 object-cover object-center rounded-full' alt='me' src={myImg}></img> */}
         <h1 className='text-primary text-4xl md:text-6xl font-bold'>Min Woo Kwak</h1>
         <h2 className='text-secondary text-2xl md:text-4xl font-bold'>I'm a Software Developer</h2>
-        <p className='text-tahiti-900 py-4 max-w-[700px]'>
+        <p className='text-tahiti-700 py-4 max-w-[700px]'>
           &lt;myself&gt; <br />
           &ensp;Welcome to my personal web portfolio! <br />
           &ensp;I'm interested in building Software / Applications<br />

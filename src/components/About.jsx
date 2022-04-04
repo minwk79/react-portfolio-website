@@ -22,32 +22,33 @@ function About() {
     <div name='about' className='container myContainer flex flex-col justify-center'>
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
         <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
-          <div className='sm:text-right pb-8 pl-4'>
+          <div className='sm:text-right pl-4 pb-8'>
             <p className='headerText'>About Me</p>
           </div>
         </div>
-          <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
-            <div className='sm:text-right text-4xl font-bold'>
-              <p>Background</p>
-            </div>
-            <div>
-               <p>
-                 4+ years of programming/software development<br />
-                 Full-stack development from scratch<br />
-                 Strong foundation on Algorithms and Data Structures<br />
-                 Knowledge in Operating Systems, Compilers, and Computer Networks<br />
-               </p>
-            </div>
-            <div className='sm:text-right text-4xl font-bold'>
-              <p>Education</p>
-            </div>
-            <div>
-               <p>
-                4th year Undergraduate in UCI. Major in Computer Science, Information.<br />
-                &ensp;//graduation expected June 2022<br />
-                2019-2022 Dean's Honors List, GPA 3.80<br/>
-               </p>
-            </div>
+          <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 md:gap-20 px-4'>
+              <div className='sm:text-right text-4xl font-bold'>
+                <p className='hover:scale-110 duration-300'>Background</p>
+              </div>
+              <div>
+                <p className='hover:scale-110 duration-300'>
+                  4+ years of programming/software development<br />
+                  Capable of Full-stack development from scratch<br />
+                  Strong foundation on Algorithms and Data Structures<br />
+                  Knowledge in Operating Systems, Compilers, and Computer Networks<br />
+                </p>
+              </div>
+              <div className='sm:text-right text-4xl font-bold'>
+                <p className='hover:scale-110 duration-300'>Education</p>
+              </div>
+              <div>
+                <p className='hover:scale-110 duration-300'>
+                  4th year Undergraduate in UCI. <br/>
+                  Major in Computer Science, Information.<br />
+                  //graduation expected June 2022<br />
+                  GPA 3.80, 2019-2022 Dean's Honors List<br/>
+                </p>
+              </div>
           </div>
 
       </div>

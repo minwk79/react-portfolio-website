@@ -23,8 +23,8 @@ const dbSkills = [
 ];
 
 const tools = [
-  "Excel",
-  "Git"
+  "Git",
+  "Excel"
 ];
 
 
@@ -32,7 +32,7 @@ const tools = [
 export default function Skills() {
   return (
     <div name='skills' className='container max-w-[1000px] flex flex-col justify-center w-full h-full mb-40 md:mb-64 lg:mb-80'>
-      <div className='flex-col'>
+      <div className='text-center pb-8'>
         <p className='headerText'>Skills</p>
       </div>
       <div className='w-full grid grid-cols-1 sm:grid-cols-2 gap-4 text-center mb-40 md:mb-64 lg:mb-80'>
