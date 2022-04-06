@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+.desktopIcons {
+  @apply w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-light-component dark:bg-dark-component;
+}
+
+.mobileIcons {
+  @apply flex justify-between items-center  bg-light-component dark:bg-dark-component;
+}
+
 .myHeader {
   @apply mb-24 md:mb-32 lg:mb-52 items-center w-full h-screen;
 }
@@ -15,11 +23,11 @@
 }
 
 .primaryBtn {
-  @apply text-sm py-2 px-4 rounded inline-flex items-center text-silver bg-tahiti-600 focus:outline-none hover:bg-tahiti-300;
+  @apply text-sm py-2 px-4 rounded inline-flex items-center text-dark-text bg-light-text dark:bg-dark-primary focus:outline-none hover:bg-tahiti-300 dark:hover:bg-dark-secondary;
 }
 
 .secondaryBtn {
-  @apply text-sm py-2 px-4 rounded inline-flex items-center text-silver bg-tahiti-600 focus:outline-none hover:bg-tahiti-300;
+  @apply text-sm py-2 px-4 rounded inline-flex items-center text-dark-text bg-light-text dark:bg-dark-primary focus:outline-none hover:bg-tahiti-300 dark:hover:bg-dark-secondary;
 }
 
 .border {

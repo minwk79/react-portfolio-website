@@ -1,5 +1,6 @@
 module.exports = {
   mode: 'jit',
+  darkMode: 'class',
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
@@ -11,6 +12,23 @@ module.exports = {
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
+      'dark': {
+        'bg': '#1f1f1f',
+        'component': '#303636',
+        'text': '#eaf6ff',
+        'primary': '#ff8100',
+        'secondary': '#ff6700'
+      },
+
+      'light': {
+        'bg': '#fff5de',
+        'component':  '#ecebff',
+        'text': '#0891b2',
+        'primary': '#3f3cbb',
+        'secondary': '#3ab7bf'
+      },
+
+
       'primary': '#3f3cbb',
       'secondary': '#3ab7bf',
       'background': '#fff5de',

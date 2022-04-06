@@ -1,8 +1,4 @@
 import React from 'react'
-import AboutCard from './AboutCard';
-
-import {HiArrowNarrwoRight} from 'react-icons/hi';
-
 
 function About() {
   // array of strings that contain each bullet points.

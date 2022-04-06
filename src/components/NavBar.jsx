@@ -12,7 +12,8 @@ const NavBar = () => {
   }
 
   return (
-    <div className='fixed mx-auto w-full h-[70px] flex flex-row-reverse justify-between px-4 items-center text-primary bg-background md:bg-silver' >
+    <div className='fixed mx-auto w-full h-[70px] flex flex-row-reverse justify-between px-4 items-center
+      text-light-text dark:text-dark-text' >
 
       {/* menu */}
       <ul className='hidden md:flex'>
@@ -52,7 +53,7 @@ const NavBar = () => {
       </div>
 
       {/* Mobile Menu */}
-      <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-silver flex flex-col justify-center items-center'}>
+      <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-light-component flex flex-col justify-center items-center'}>
         <li className='py-6 text-4xl'>
           <Link to="home" smooth={true} duration={500} onClick={handleClick}>
             Home

@@ -10,15 +10,18 @@ import Social from './Social';
 
 function App() {
   return (
-    <div className='bg-background'>
-      <NavBar />
-      <Social />
-      <Header />
-      <About />
-      <Skills />
-      <Project />
-      <Contact />
-      <Footer />
+    <div className=''>
+      {/* TODO: Attach a toggle button for dark mode.  */}
+      <div className='bg-light-bg dark:bg-dark-bg'>
+        <NavBar />
+        <Social />
+        <Header />
+        <About />
+        <Skills />
+        <Project />
+        <Contact />
+        <Footer />
+      </div>
     
     </div>
   )
