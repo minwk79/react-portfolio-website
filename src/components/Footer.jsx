@@ -28,12 +28,12 @@ function Footer() {
 
 
   return (
-    <div className='w-full h-[20px] px-20 py-20 flex flex-col sm:flex-row items-center justify-center bg-light-bg dark:bg-dark-bg md:justify-between'>
+    <div className='w-full h-[20px] px-20 py-20 flex flex-col sm:flex-row items-center gap-4 justify-center bg-light-bg dark:bg-dark-bg md:justify-between'>
       <div className='mr-12 block'>
-        <span className='text-xs sm:text-sm sm:text-center text-light-primary dark:text-dark-primary'>© 2022 Min Woo Kwak. All Rights Reserved.</span>
+        <span className='text-xs sm:text-sm sm:text-center text-light-primary dark:text-dark-primary'>© 2022 Min Woo Kwak.</span>
       </div>
         <div className='flex justify-center gap-4 items-center'> 
-          <div className='text-xs sm:text-sm text-light-secondary dark:text-dark-secondary'>This portfolio is made by</div>
+          <div className='text-xs sm:text-sm text-light-text dark:text-dark-text'>Created by using:</div>
           <FaReact className='text-light-text hover:text-light-secondary dark:text-dark-text dark:hover:text-dark-secondary'/>
           <SiJavascript className='text-light-text hover:text-light-secondary dark:text-dark-text dark:hover:text-dark-secondary'/>
           <SiTailwindcss className='text-light-text hover:text-light-secondary dark:text-dark-text dark:hover:text-dark-secondary'/>

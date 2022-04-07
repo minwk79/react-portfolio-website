@@ -3,6 +3,7 @@ import {FaBars, FaTimes} from 'react-icons/fa';
 
 import { Link, animateScroll as scroll } from "react-scroll";
 
+
 const NavBar = () => {
 
   const [nav, setNav] = useState(false);
@@ -14,7 +15,6 @@ const NavBar = () => {
   return (
     <div className='fixed mx-auto w-full h-[70px] flex flex-row-reverse justify-between px-4 items-center
       text-light-text dark:text-dark-text' >
-
       {/* menu */}
       <ul className='hidden md:flex'>
           <li>

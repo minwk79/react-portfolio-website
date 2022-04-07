@@ -14,7 +14,6 @@ function App() {
   const [darkMode, setDarkMode] = useState(false);
 
   const toggleDarkMode = (darkMode) => {
-    console.log("Toggled from the App!");
     setDarkMode(!darkMode);
   };
 
@@ -23,11 +22,11 @@ function App() {
     <div className={!darkMode ? '' : 'dark'}>
       {/* TODO: Attach a toggle button for dark mode.  */}
       <div className='bg-light-bg dark:bg-dark-bg'>
-
-        {/* Since DarkMode is layed below Navbar, it cant be clicked. Maybe put it inside Navbar?? */}
-        <DarkMode darkMode={darkMode} toggleDarkMode={toggleDarkMode}/>
         <NavBar />
-        <Social />
+        <div className='flex flex-col'>
+          <Social />
+          <DarkMode darkMode={darkMode} toggleDarkMode={toggleDarkMode}/>
+        </div>
         <Header />
         <About />
         <Skills />
