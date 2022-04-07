@@ -16,7 +16,7 @@ const tools4 = ["React", "Firebase", "Google OAuth"];
 export default function Project() {
 
   return (   
-    <div name='projects' className='container max-w-[1000px] flex flex-col justify-center w-full h-full' >
+    <div name='projects' className='container max-w-[1000px] flex flex-col justify-center w-full h-full ' >
         <div className='text-center pb-8'>
             <p className='headerText'>Projects</p>
         </div>

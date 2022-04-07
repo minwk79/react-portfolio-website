@@ -5,7 +5,7 @@ import {SiTailwindcss, SiJavascript} from 'react-icons/si';
 import {FaReact} from 'react-icons/fa';
 
 
-export default function Footer() {
+function Footer() {
 
   const [text, setText] = useState('');
   const [rating, setRating] = useState(10);
@@ -28,16 +28,18 @@ export default function Footer() {
 
 
   return (
-    <div className='w-full h-[20px] px-20 py-20 flex flex-col sm:flex-row items-center justify-center bg-background md:justify-between'>
+    <div className='w-full h-[20px] px-20 py-20 flex flex-col sm:flex-row items-center justify-center bg-light-bg dark:bg-dark-bg md:justify-between'>
       <div className='mr-12 block'>
-        <span className='text-xs sm:text-sm sm:text-center text-primary'>© 2022 Min Woo Kwak. All Rights Reserved.</span>
+        <span className='text-xs sm:text-sm sm:text-center text-light-primary dark:text-dark-primary'>© 2022 Min Woo Kwak. All Rights Reserved.</span>
       </div>
         <div className='flex justify-center gap-4 items-center'> 
-          <div className='text-xs sm:text-sm text-secondary'>This portfolio is made by</div>
-          <FaReact className='hover:text-secondary'/>
-          <SiJavascript className='hover:text-secondary'/>
-          <SiTailwindcss className='hover:text-secondary'/>
+          <div className='text-xs sm:text-sm text-light-secondary dark:text-dark-secondary'>This portfolio is made by</div>
+          <FaReact className='text-light-text hover:text-light-secondary dark:text-dark-text dark:hover:text-dark-secondary'/>
+          <SiJavascript className='text-light-text hover:text-light-secondary dark:text-dark-text dark:hover:text-dark-secondary'/>
+          <SiTailwindcss className='text-light-text hover:text-light-secondary dark:text-dark-text dark:hover:text-dark-secondary'/>
         </div>
     </div>
   )
 }
+
+export default Footer

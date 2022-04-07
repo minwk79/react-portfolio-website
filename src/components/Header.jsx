@@ -17,10 +17,10 @@ export default function Header() {
         <h1 className='text-light-primary dark:text-dark-primary text-4xl md:text-6xl font-bold'>Min Woo Kwak</h1>
         <h2 className='text-light-secondary dark:text-dark-text text-2xl md:text-4xl font-bold'>I'm a Software Developer</h2>
         <p className='text-light-text dark:text-dark-text py-4 max-w-[700px]'>
-          &lt;myself&gt; <br />
+          &lt;Myself&gt; <br />
           &ensp;Welcome to my personal web portfolio! <br />
           &ensp;I'm interested in building Software / Applications<br />
-          &lt;/myself&gt; <br />
+          &lt;/Myself&gt; <br />
         </p>
         <div className='flex justify-center'>
           <a className="primaryBtn gap-2"

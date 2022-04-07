@@ -24,10 +24,10 @@ function About() {
         </div>
           <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 md:gap-20 px-4'>
               <div className='sm:text-right text-4xl font-bold'>
-                <p className='hover:scale-110 duration-300'>Background</p>
+                <p className='hover:scale-110 duration-300 text-light-primary dark:text-dark-primary'>Background</p>
               </div>
               <div>
-                <p className='hover:scale-110 duration-300'>
+                <p className='hover:scale-110 duration-300 text-light-text dark:text-dark-text'>
                   4+ years of programming/software development<br />
                   Capable of Full-stack development from scratch<br />
                   Strong foundation on Algorithms and Data Structures<br />
@@ -35,10 +35,10 @@ function About() {
                 </p>
               </div>
               <div className='sm:text-right text-4xl font-bold'>
-                <p className='hover:scale-110 duration-300'>Education</p>
+                <p className='hover:scale-110 duration-300 text-light-primary dark:text-dark-primary'>Education</p>
               </div>
               <div>
-                <p className='hover:scale-110 duration-300'>
+                <p className='hover:scale-110 duration-300 text-light-text dark:text-dark-text'>
                   4th year Undergraduate in UCI. <br/>
                   Major in Computer Science, Information.<br />
                   //graduation expected June 2022<br />

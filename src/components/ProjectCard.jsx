@@ -7,13 +7,13 @@ function ProjectCard({name, tools, description, src, git='', website=''}) {  // 
     const renderedTools = tools.map((tool) => {
         return (
         <div key={tool} className='inline'>
-            <span className='inline-block bg-secondary rounded-full px-3 py-1 text-sm font-semibold text-silver mr-2 mb-2'>{tool}</span>
+            <span className='inline-block bg-light-secondary dark:bg-dark-secondary rounded-full px-3 py-1 text-sm font-semibold text-dark-text mr-2 mb-2'>{tool}</span>
         </div>
         )
     })
 
     return (
-        <div className='rounded overflow-hidden shadow-md shadow-secondary'>
+        <div className='rounded overflow-hidden bg-light-component dark:bg-dark-component shadow-md shadow-light-secondary dark:shadow-dark-secondary'>
             {/* <div className='group container'>
                 <div className=' opacity-1 group-hover:opacity-30 duration-300'>
                     <img className='w-full' src={src} alt='project'/>
@@ -24,7 +24,7 @@ function ProjectCard({name, tools, description, src, git='', website=''}) {  // 
                 </div> */}
 
             <div className='group container relative'>
-                <img className='w-full opacity-1 group-hover:opacity-30 duration-300' src={src} alt='project'/>
+                <img className='w-full opacity-1 group-hover:opacity-30 duration-300 mt-4' src={src} alt='project'/>
                 <div className='absolute top-16 left-0 right-0 mx-auto'>
                     <button className='primaryBtn mx-2 opacity-0 group-hover:opacity-100 mb-8 duration-300 relative top-5' disabled={git === '' ? true : false}>Git</button>
                     <button className='primaryBtn mx-2 opacity-0 group-hover:opacity-100 mb-8 duration-300 relative top-5' disabled={website === '' ? true : false}>Website</button>
@@ -32,8 +32,8 @@ function ProjectCard({name, tools, description, src, git='', website=''}) {  // 
 
             </div>
             <div className='px-6 py-4'>
-                <div className='text-primary font-bold text-xl mb-2'>{name}</div>
-                <p className='text-secondary text-base'>
+                <div className='text-light-primary dark:text-dark-primary font-bold text-xl mb-2'>{name}</div>
+                <p className='text-light-secondary dark:text-dark-secondary text-base'>
                 {description}
                 </p>
             </div>

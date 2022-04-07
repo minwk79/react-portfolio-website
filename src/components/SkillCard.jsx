@@ -10,8 +10,8 @@ function SkillCard({area, skills}) {
 
 
   return (
-    <div className='shadow-md shadow-secondary hover:scale-110 duration-300'>
-      <h2 className='secondaryText'>{area}</h2>
+    <div className='bg-light-component dark:bg-dark-component shadow-md shadow-light-secondary dark:shadow-dark-secondary hover:scale-110 duration-300'>
+      <h2 className='text-light-secondary dark:text-dark-secondary'>{area}</h2>
       <div className='description'>
         {renderedSkills}
       </div>

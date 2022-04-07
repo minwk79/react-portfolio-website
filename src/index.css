@@ -19,7 +19,7 @@
 }
 
 .headerText {
-  @apply text-primary border-b-2 border-primary font-bold text-2xl md:text-4xl inline;
+  @apply text-light-primary dark:text-dark-primary border-b-2 border-light-primary dark:border-dark-primary font-bold text-2xl md:text-4xl inline;
 }
 
 .primaryBtn {
@@ -38,12 +38,8 @@
   @apply sm:text-4xl text-3xl mb-4 font-medium text-primary;
 }
 
-.secondaryText {
-  @apply text-lg text-secondary;
-}
-
 .description {
-  @apply mb-8 leading-relaxed text-tahiti-900;
+  @apply mb-8 leading-relaxed text-light-text dark:text-dark-text;
 }
 
 .content-div {
