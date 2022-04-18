@@ -1,47 +1,30 @@
-import React from 'react'
-import SkillCard from './SkillCard'
+import React from "react";
+import SkillCard from "./SkillCard";
 
 // TODO: Declare variables for skillcards.
-const feSkills= [
-  "HTML",
-  "CSS",
-  "React",
-  "Tailwind",
-  "Angular"
-];
+const feSkills = ["HTML", "CSS", "React", "Tailwind"];
 
-const beSkills = [
-  "Python",
-  "C/C++",
-  "Javascript"
-];
+const beSkills = ["Python", "C/C++", "Javascript", "Next js"];
 
-const dbSkills = [
-  "MySQL",
-  "PostgreSQL",
-  "Firebase"
-];
+const dbSkills = ["MySQL", "PostgreSQL", "Firebase"];
 
-const tools = [
-  "Git",
-  "Excel"
-];
-
-
+const tools = ["Git", "Excel", "Vercel"];
 
 export default function Skills() {
   return (
-    <div name='skills' className='container max-w-[1000px] flex flex-col justify-center w-full h-full mb-40 md:mb-64 lg:mb-80'>
-      <div className='text-center pb-8'>
-        <p className='headerText'>Skills</p>
+    <div
+      name="skills"
+      className="container max-w-[1000px] flex flex-col justify-center w-full h-full mb-40 md:mb-64 lg:mb-80"
+    >
+      <div className="text-center pb-8">
+        <p className="headerText">Skills</p>
       </div>
-      <div className='w-full grid grid-cols-1 sm:grid-cols-2 gap-4 text-center mb-40 md:mb-64 lg:mb-80'>
-        <SkillCard area="Front End" skills={feSkills} />
-        <SkillCard area="Back End" skills={beSkills} />
+      <div className="w-full grid grid-cols-1 sm:grid-cols-2 gap-4 text-center mb-40 md:mb-64 lg:mb-80">
+        <SkillCard area="Front-End" skills={feSkills} />
+        <SkillCard area="Back-End" skills={beSkills} />
         <SkillCard area="Database" skills={dbSkills} />
         <SkillCard area="Tools" skills={tools} />
-
       </div>
     </div>
-  )
+  );
 }

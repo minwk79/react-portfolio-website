@@ -41,7 +41,7 @@ function Social() {
               className="flex justify-between items-center w-full text-light-text dark:text-dark-text"
               href="/"
             >
-              Email <HiOutlineMail size={30} />
+              Contact <HiOutlineMail size={30} />
             </Link>
           </li>
           <li className="desktopIcons">

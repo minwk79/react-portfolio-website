@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+img {
+  width: 400px;
+  height: 200px;
+  object-fit: cover;
+}
+
 .desktopIcons {
   @apply w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-light-component dark:bg-dark-component;
 }
