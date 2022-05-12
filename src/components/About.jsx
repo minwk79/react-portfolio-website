@@ -30,7 +30,8 @@ function About() {
             <p className="hover:scale-110 duration-300 text-light-text dark:text-dark-text">
               Fluent in programming/software development
               <br />
-              Capable of Full-stack development <br />
+              Capable of Full-stack development
+              <br />
               Strong foundation on Algorithms and Data Structures
               <br />
               Knowledge in Operating Systems, Compilers
@@ -44,13 +45,17 @@ function About() {
           </div>
           <div>
             <p className="hover:scale-110 duration-300 text-light-text dark:text-dark-text">
-              Candidate for Bachelor's Science Degree <br />
-              -> graduation expected June 2022
+              Candidate for Bachelor's Science Degree
               <br />
-              4th year Undergraduate in UCI. <br />
+              Graduation expected: June 2022
+              <br />
+              4th year Undergraduate in UCI.
+              <br />
               Major in Computer Science, Information
               <br />
-              GPA 3.80, 2019-2022 Dean's Honors List
+              GPA 3.83
+              <br />
+              Dean's Honors List 2019-2022
               <br />
             </p>
           </div>

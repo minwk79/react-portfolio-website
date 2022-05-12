@@ -2,7 +2,7 @@ import React from "react";
 import { HiOutlineMail, HiOutlineDocumentText } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import resume from "../assets/resume.pdf";
+import resume from "../assets/Resume.pdf";
 import { Link } from "react-scroll";
 
 function Social() {

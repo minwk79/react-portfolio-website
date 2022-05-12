@@ -2,11 +2,11 @@ import React from "react";
 import SkillCard from "./SkillCard";
 
 // TODO: Declare variables for skillcards.
-const feSkills = ["HTML", "CSS", "React", "Tailwind"];
+const coding = ["Python", "C/C++", "Javascript", "HTML/CSS"];
 
-const beSkills = ["Python", "C/C++", "Javascript", "Next js"];
+const frameworks = ["React", "Redux", "Tailwind"];
 
-const dbSkills = ["MySQL", "PostgreSQL", "Firebase"];
+const dbSkills = ["SQL", "MongoDB", "Firebase"];
 
 const tools = ["Git", "Excel", "Vercel"];
 
@@ -20,8 +20,8 @@ export default function Skills() {
         <p className="headerText">Skills</p>
       </div>
       <div className="w-full grid grid-cols-1 sm:grid-cols-2 gap-4 text-center mb-40 md:mb-64 lg:mb-80">
-        <SkillCard area="Front-End" skills={feSkills} />
-        <SkillCard area="Back-End" skills={beSkills} />
+        <SkillCard area="Coding" skills={coding} />
+        <SkillCard area="Frameworks" skills={frameworks} />
         <SkillCard area="Database" skills={dbSkills} />
         <SkillCard area="Tools" skills={tools} />
       </div>

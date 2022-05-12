@@ -1,10 +1,9 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
-import srcImg from "../assets/temp.png";
 import portfolioImage from "../assets/portfolio.png";
 import searchEngineImage from "../assets/search-engine.png";
-import houseImage from "../assets/house-marketplace.png";
 import memoryGameImage from "../assets/planet-game.png";
+import projManageImage from "../assets/project-management.png";
 
 const des1 =
   "Responsive Web Portfolio. Supports Dark Mode and Form Submission!";
@@ -12,12 +11,12 @@ const des2 = "Planet images matching memory game using Modern React Hooks. ";
 const des3 =
   "Fast full-text search using Mock Database & Indexes. Query response time under 300ms.";
 const des4 =
-  "Housing Auction. Supports Google Auth. Firebase for back-end data storing.";
+  "Supports user authentication using Firebase. Data updated realtime using Firestore.";
 
 const tools1 = ["React", "Tailwind", "getform.io"];
 const tools2 = ["Javascript", "React"];
 const tools3 = ["Python", "Flask", "HTML"];
-const tools4 = ["React", "Firebase", "Google OAuth"];
+const tools4 = ["React", "Firebase"];
 
 export default function Project() {
   return (
@@ -54,10 +53,10 @@ export default function Project() {
           website=""
         />
         <ProjectCard
-          name="Housing Marketplace"
+          name="Project Management"
           tools={tools4}
           description={des4}
-          src={houseImage}
+          src={projManageImage}
           git=""
           website=""
         />

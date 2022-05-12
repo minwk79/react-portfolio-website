@@ -1,7 +1,6 @@
 import React from "react";
 // import my image from assets and put it inside the img src.
-import myImg from "../assets/temp.png";
-import resume from "../assets/resume.pdf";
+import resume from "../assets/Resume.pdf";
 
 import { AiOutlineDownload } from "react-icons/ai";
 import { BiLinkExternal } from "react-icons/bi";
