@@ -1,8 +1,4 @@
 import React from "react";
-import EmailForm from "./EmailForm";
-import ContactCard from "./ContactCard";
-
-import getForm from "../assets/get-form.jpg";
 
 function Contact() {
   return (

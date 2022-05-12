@@ -1,14 +1,6 @@
 import React from "react";
 
 function About() {
-  // array of strings that contain each bullet points.
-  const eduBullets = ["B.S in Computer Science", "Class of 2022", "GPA: 3.83"];
-  const bgBullets = [
-    "Born in Seoul, South Korea",
-    "Interested in Web/App development",
-    "previously majored in psychology/Cog Sci",
-  ];
-
   return (
     <div
       name="about"
