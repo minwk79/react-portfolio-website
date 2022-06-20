@@ -2,7 +2,7 @@ import React from "react";
 import SkillCard from "./SkillCard";
 
 // TODO: Declare variables for skillcards.
-const coding = ["Python", "C/C++", "Javascript", "HTML/CSS"];
+const coding = ["Javascript", "Python", "C/C++", "HTML/CSS"];
 
 const frameworks = ["React", "Redux", "Tailwind"];
 

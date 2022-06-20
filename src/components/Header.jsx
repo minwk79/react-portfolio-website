@@ -25,7 +25,7 @@ export default function Header() {
           &ensp;Welcome to my personal web portfolio! <br />
           &ensp;I'm interested in designing and building Software. <br />
           &ensp;Feel free to check out my resume/github below. <br />
-          &ensp;Thank you for visiting my portfolio! <br />
+          &ensp;Thank you for visiting! <br />
           &lt;/Myself&gt; <br />
         </p>
         <div className="flex justify-center">

@@ -37,15 +37,13 @@ function About() {
           </div>
           <div>
             <p className="hover:scale-110 duration-300 text-light-text dark:text-dark-text">
-              Candidate for Bachelor's Science Degree
+              B.S in Computer Science
               <br />
-              Graduation expected: June 2022
+              UCI Class of 2022
               <br />
-              4th year Undergraduate in UCI.
+              Major: Computer Science, Information
               <br />
-              Major in Computer Science, Information
-              <br />
-              GPA 3.83
+              GPA 3.77
               <br />
               Dean's Honors List 2019-2022
               <br />

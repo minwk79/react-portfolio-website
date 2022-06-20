@@ -14,7 +14,7 @@ function Footer() {
       {/* Created By Section */}
       <div className="flex justify-center items-center gap-2">
         <div className="mr-4 text-xs sm:text-sm text-light-text dark:text-dark-text">
-          <label>Created By Using: </label>
+          <label>Created Using: </label>
         </div>
         <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
           <FaReact className="text-light-text hover:text-light-secondary dark:text-dark-text dark:hover:text-dark-secondary" />
